@@ -31,3 +31,42 @@
 .todos {
   margin-top: 30px;
 }
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px;
+  margin-top: 10px;
+
+}
+.line-through{
+  text-decoration: line-through;
+}
+.checkbox{
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  gap: 8px;
+}
+
+
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+ .delIcon{
+  cursor: pointer;
+  flex-shrink: 0;
+}

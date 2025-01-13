@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import axios from "axios";
 
 const Create = () => {
@@ -7,7 +7,7 @@ const Create = () => {
   const handleAddTask = () => {
     axios
       .post("http://localhost:3001/add", { task: task })
-      .then((result) => console.log(result))
+      .then((result) => {location.reload()} )
       .catch((err) => console.log(err));
   };
 
