@@ -1,10 +1,13 @@
 const mongoose = require("mongoose");
 
+const todoSchema = new mongoose.Schema({
+  task: String,
+  completed: {
+    type: Boolean,
+    default: false,
+  },
+});
 
-const todoSchema = new mongoose.Schema( {
-    task: String
-})
-
-const todoModel = mongoose.model('todos', todoSchema)
+const todoModel = mongoose.model("todos", todoSchema);
 
 module.exports = todoModel;
