@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.home h2 {
+  margin-bottom: 30px;
+  font-size: 62px;
+}
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  padding: 10px 15px;
+  outline: none;
+}
+.create_form button {
+  padding: 10px 15px;
+ 
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.todos {
+  margin-top: 30px;
+}
